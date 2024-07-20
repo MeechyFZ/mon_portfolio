@@ -58,3 +58,11 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .skills-containers, .projects-box, .veille-content , .contact form', { origin: 'bottom'});
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+
+// ============= TYPED JS ============= //
+// ============= TYPED JS ============= //
+
+const typed = new Typed('.multiple-text', {
+    strings : ["Apprenti Développeur Full-Stack"],
+    typeSpeed: 70,
+});
