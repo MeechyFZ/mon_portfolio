@@ -33,18 +33,19 @@
     <!-- SECTION HOME  -->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Bonjour, je suis</h3>
+        
         <h1>Pons Nicolas</h1>
         <h3>Je suis <span class= "multiple-text"></span></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
           adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
         <div class="social-media">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/MeechyFZ" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nicolas-pons-16715a276/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           <!-- <a href="#"></a> -->
           <!-- <a href="#"></a> -->
         </div>
-        <a href="#" class="btn">Télécharger mon CV</a>
+        <a href="Images/CV - PONS Nicolas.pdf" class="btn" download="Mon_CV.pdf">Télécharger mon CV</a>
+
       </div>
 
       <div class="home-img">
@@ -64,12 +65,13 @@
       <div class="about-content">
       <h2 class="heading">A propos <span>de moi</span></h2>
       <h3>Full-Stack dév </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
-        adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. 
-        Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. 
-        Maecenas adipiscing ante non diam sodales hendrerit.  </p>
-        <a href="#" class="btn">Lire plus</a>
+      <p>Je m'appelle Nicolas PONS, j'ai 32 ans. Dans le cadre d'une reconversion professionnelle, j'ai décidé de reprendre 
+        mes études et suis actuellement en BTS SIO (option SLAM) en alternance à ISITECH Lyon. Je réalise mon alternance à 
+        la Compagnie Nationale du Rhône, où je suis chargé de la recette fonctionnelle des différentes applications métier, 
+        du développement de macros VBA et de la création de scripts Python. 
+        <br>
+        Motivé et avide d'apprendre, je suis déterminé à poursuivre mes études après l'obtention de mon BTS pour approfondir 
+        mes compétences et me spécialiser davantage dans ce domaine.</p>
       </div>
     </section>
 
@@ -149,18 +151,19 @@
     <section class="contact" id="contact">
       <h2 class="heading"> Me <span>Contacter</span></h2>
 
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="9500b774-9f66-4a1f-90ad-53ef9b523d4a">
         <div class="input-box">
-          <input type="text" placeholder="Nom et prénom">
-          <input type="email" placeholder="Adresse mail">
+          <input name ="nom" type="text" placeholder="Nom et prénom">
+          <input name ="mail" type="email" placeholder="Adresse mail">
         </div>
 
         <div class="input-box">
-          <input type="number" placeholder="Numero de téléphone">
-          <input type="text" placeholder="Objet du message">
+          <input name ="tel" type="tel" placeholder="Numero de téléphone">
+          <input name ="objet" type="text" placeholder="Objet du message">
         </div>
 
-        <textarea name="" id="" cols="30" rows ="10" placeholder="Votre message"></textarea>
+        <textarea name="message" id="" cols="30" rows ="10" placeholder="Votre message"></textarea>
         <input type="submit" value = "Envoyer" Class = "btn">
       </form>
     </section>
